@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 
 Route::get('/greetings', [UserController::class, 'greetings']);
+Route::get('/profile/{id}', [ProfileController::class, 'index']);
